@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getContributionLevel = getContributionLevel;
 exports.getGridPosition = getGridPosition;
 exports.renderHeatmap = renderHeatmap;
-const canvas_1 = require("canvas");
+const canvas_1 = require("@napi-rs/canvas");
 const types_1 = require("./types");
 /** 5-level color scale matching GitHub's contribution graph */
 const COLOR_SCALE = {

@@ -4,7 +4,7 @@ export function loadConfig(): ServiceConfig {
   const githubToken = process.env.GITHUB_TOKEN ?? '';
   const cacheTtlSeconds = parseInt(process.env.CACHE_TTL_SECONDS ?? '3600', 10);
   const fetchTimeoutMs = parseInt(process.env.FETCH_TIMEOUT_MS ?? '10000', 10);
-  const port = parseInt(process.env.PORT ?? '3001', 10);
+  const port = parseInt(process.env.PORT ?? '3000', 10);
 
   if (!githubToken) {
     throw new Error('GITHUB_TOKEN environment variable is required');

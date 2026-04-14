@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^3.2.3",
+    "@napi-rs/canvas": "^0.1.97",
+    "dotenv": "^17.4.2",
     "express": "^4.22.1",
     "node-cache": "^5.1.2",
     "node-fetch": "^2.7.0"

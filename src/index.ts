@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import { loadConfig } from './config';
 import { createDefaultHeatmapRouter } from './heatmapService';

@@ -1,4 +1,4 @@
-import { createCanvas } from 'canvas';
+import { createCanvas } from '@napi-rs/canvas';
 import { ContributionDay, ContributionLevel } from './types';
 
 /** 5-level color scale matching GitHub's contribution graph */
